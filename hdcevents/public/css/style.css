@@ -207,3 +207,26 @@ footer {
 footer p {
     margin-bottom: 0;
 }
+
+.icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+}
+
+.icon-button ion-icon {
+    font-size: 40px;
+    color: #F2A340;
+}
+
+.icon-button:hover ion-icon {
+    color: #F28000;
+}
+
+.busca {
+    display: flex;
+    gap: 8px;
+}
