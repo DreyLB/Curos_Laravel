@@ -42,6 +42,15 @@ header {
     padding: 10px;
 }
 
+#info-container .already-joined-msg {
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #B8DAFF;
+    padding: 10px;
+    width: 275px;
+}
+
 /* navbar */
 #navbar img {
     width: 40px;
@@ -193,6 +202,31 @@ header {
     display: flex;
 }
 
+#description-container {
+    margin-top: 30px;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+/* Edit page */
+
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
 /* footer */
 footer {
     text-align: center;
@@ -206,27 +240,4 @@ footer {
 
 footer p {
     margin-bottom: 0;
-}
-
-.icon-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    display: grid;
-    align-items: center;
-}
-
-.icon-button ion-icon {
-    font-size: 40px;
-    color: #F2A340;
-}
-
-.icon-button:hover ion-icon {
-    color: #F28000;
-}
-
-.busca {
-    display: flex;
-    gap: 8px;
 }
